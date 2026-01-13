@@ -3,7 +3,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/477fb7a2f5e2cc1b2aa00c679c8ab168b47ff1b9.png",
+          "~/assets/bannerStatic/static_10/477fb7a2f5e2cc1b2aa00c679c8ab168b47ff1b9.png",
         id: 0,
       },
     ],
@@ -25,7 +25,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/dd4aa5af4898a15dde074fe6b833bdfbc045dd47.png",
+          "~/assets/bannerStatic/static_10/dd4aa5af4898a15dde074fe6b833bdfbc045dd47.png",
         id: 0,
       },
     ],
@@ -50,7 +50,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/ae64c474ba2748b4fea1a1433b9b373598d3e686.png",
+          "~/assets/bannerStatic/static_10/ae64c474ba2748b4fea1a1433b9b373598d3e686.png",
         id: 0,
       },
     ],
@@ -70,7 +70,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/d41b0292d9d1b0fce37a35f6efacac579093cdb3.png",
+          "~/assets/bannerStatic/static_10/d41b0292d9d1b0fce37a35f6efacac579093cdb3.png",
         id: 0,
       },
     ],
@@ -95,7 +95,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/a12cbab877db2b6d3b96ec012735cfe3998de399.png",
+          "~/assets/bannerStatic/static_10/a12cbab877db2b6d3b96ec012735cfe3998de399.png",
         id: 0,
       },
     ],
@@ -117,7 +117,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/6f27fe80f495e83546921c2c58b2107c2ee89706.png",
+          "~/assets/bannerStatic/static_10/6f27fe80f495e83546921c2c58b2107c2ee89706.png",
         id: 0,
       },
     ],
@@ -141,7 +141,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/ac580ac636595e27b5d5c8b1f9d802751823f02f.png",
+          "~/assets/bannerStatic/static_10/ac580ac636595e27b5d5c8b1f9d802751823f02f.png",
         id: 0,
       },
     ],
@@ -163,7 +163,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/987a407da2e02a12be549ad7f011dc11f73216e9.png",
+          "~/assets/bannerStatic/static_10/987a407da2e02a12be549ad7f011dc11f73216e9.png",
         id: 0,
       },
     ],
@@ -186,7 +186,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/843ee84b16bab6274b98b317b3adaf1351b4be76.png",
+          "~/assets/bannerStatic/static_10/843ee84b16bab6274b98b317b3adaf1351b4be76.png",
         id: 0,
       },
     ],
@@ -209,7 +209,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/a5607001ac06b4780106e2a10aa835657e553f07.png",
+          "~/assets/bannerStatic/static_10/a5607001ac06b4780106e2a10aa835657e553f07.png",
         id: 0,
       },
     ],
@@ -232,7 +232,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/b14cad3c76e957705810c26f4c6acc236f280721.png",
+          "~/assets/bannerStatic/static_10/b14cad3c76e957705810c26f4c6acc236f280721.png",
         id: 0,
       },
     ],
@@ -255,7 +255,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/f569be6834a5968c038bcc0fb0403f8f77e24c18.png",
+          "~/assets/bannerStatic/static_10/f569be6834a5968c038bcc0fb0403f8f77e24c18.png",
         id: 0,
       },
     ],
@@ -278,7 +278,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/eb98a42561de7d45f8856407c4531d2724ac6fc6.png",
+          "~/assets/bannerStatic/static_10/eb98a42561de7d45f8856407c4531d2724ac6fc6.png",
         id: 0,
       },
     ],
@@ -304,7 +304,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/480a5c02dbcd3afd5f790cf621efbd1b2d39efcb.png",
+          "~/assets/bannerStatic/static_10/480a5c02dbcd3afd5f790cf621efbd1b2d39efcb.png",
         id: 0,
       },
     ],
@@ -326,7 +326,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/cc1405d4d805baf9c459f67c03f095f70ec864c6.png",
+          "~/assets/bannerStatic/static_10/cc1405d4d805baf9c459f67c03f095f70ec864c6.png",
         id: 0,
       },
     ],
@@ -349,7 +349,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/1696ffeacb26bcce7ad50037952620ee43614a4a.png",
+          "~/assets/bannerStatic/static_10/1696ffeacb26bcce7ad50037952620ee43614a4a.png",
         id: 0,
       },
     ],
@@ -372,7 +372,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/b0747b7f64e0e07e379a4bd416a0891b3e52c7d9.png",
+          "~/assets/bannerStatic/static_10/b0747b7f64e0e07e379a4bd416a0891b3e52c7d9.png",
         id: 0,
       },
     ],
@@ -395,7 +395,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/ec9f99bf71be9408a359d7cd48dfb47e48ebce2c.png",
+          "~/assets/bannerStatic/static_10/ec9f99bf71be9408a359d7cd48dfb47e48ebce2c.png",
         id: 0,
       },
     ],
@@ -420,7 +420,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/c4cef2b063a853521c7f413d8e7782ff653e4126.png",
+          "~/assets/bannerStatic/static_10/c4cef2b063a853521c7f413d8e7782ff653e4126.png",
         id: 0,
       },
     ],
@@ -443,7 +443,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/567e0221b3bd89e34d85c604549d915c95ca17d1.png",
+          "~/assets/bannerStatic/static_10/567e0221b3bd89e34d85c604549d915c95ca17d1.png",
         id: 0,
       },
     ],
@@ -464,7 +464,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/23c05e4d9e0ffbc16671e14c406fbe785b06ff9f.png",
+          "~/assets/bannerStatic/static_10/23c05e4d9e0ffbc16671e14c406fbe785b06ff9f.png",
         id: 0,
       },
     ],
@@ -487,7 +487,7 @@ const layers = [
     resources: [
       {
         src:
-          "./static_10/fbfeb5de7e41fd1e888fca7ac76cbf2f8a42f3d3.png",
+          "~/assets/bannerStatic/static_10/fbfeb5de7e41fd1e888fca7ac76cbf2f8a42f3d3.png",
         id: 0,
       },
     ],
@@ -504,3 +504,6 @@ const layers = [
     name: "02最右石头",
   },
 ];
+
+
+export default layers;

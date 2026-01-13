@@ -8,8 +8,9 @@
 </template>
 
 <script setup lang="ts">
-import layersArr from "@/assets/bannerStatic/static_01/layers.js";
-import bannerAssets from "@/assets/bannerStatic/static_01/index.ts";
+/* 替换banner只需要更换static_xx的版本即可 */
+import layersArr from "@/assets/bannerStatic/static_02/layers.js";
+import bannerAssets from "@/assets/bannerStatic/static_02/index.ts";
 onMounted(() => {
     const layers = layersArr;
     let k = 0,
@@ -227,11 +228,14 @@ onMounted(() => {
     };
 
     const o = Object.getOwnPropertyDescriptors(!1);
+    console.log(o, 'o~');
+
 
     const mouseLeaveFn = () => {
         (o.value = !1), E();
     };
 
+    // 用户在浏览器中移动鼠标事件
     const mouseMoveFn = (e) => {
         document.documentElement.scrollTop + e.clientY < fatherHeight
             ? (o.value || ((o.value = !0), (C = e.clientX)),
@@ -270,12 +274,24 @@ onMounted(() => {
     };
 
     document.addEventListener("mouseleave", mouseLeaveFn),
-    window.addEventListener("mousemove", mouseMoveFn);
+        window.addEventListener("mousemove", mouseMoveFn);
     window.addEventListener("resize", resizeFn);
 });
 
 </script>
 
+<style>
+.layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+</style>
 <style lang="scss" scoped>
 body {
     margin: 0;
@@ -300,16 +316,6 @@ body {
     overflow: hidden;
 }
 
-.layer {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 img {
     width: auto;

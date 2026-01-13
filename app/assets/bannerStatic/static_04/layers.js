@@ -3,7 +3,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/b51d0d75b1b27b669e456aa36bdf3b46f658a531.png",
+              "src": "~/assets/bannerStatic/static_04/b51d0d75b1b27b669e456aa36bdf3b46f658a531.png",
               "id": 0
           }
       ],
@@ -20,7 +20,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/8f976964bf99b64dcf844b698642caa01449623b.png",
+              "src": "~/assets/bannerStatic/static_04/8f976964bf99b64dcf844b698642caa01449623b.png",
               "id": 0
           }
       ],
@@ -46,7 +46,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/a1d3587a7230b68e78b724558697ae6a1739e1cc.png",
+              "src": "~/assets/bannerStatic/static_04/a1d3587a7230b68e78b724558697ae6a1739e1cc.png",
               "id": 0
           }
       ],
@@ -70,7 +70,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/454a3f4bd1f8bd23d89d8e3a676a826e144ab13a.png",
+              "src": "~/assets/bannerStatic/static_04/454a3f4bd1f8bd23d89d8e3a676a826e144ab13a.png",
               "id": 0
           }
       ],
@@ -96,7 +96,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/a89c6c61109d1f58b83bc76fa3cf939df82d2ff4.png",
+              "src": "~/assets/bannerStatic/static_04/a89c6c61109d1f58b83bc76fa3cf939df82d2ff4.png",
               "id": 0
           }
       ],
@@ -124,7 +124,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/1c4b40f96bac2479f7a67541171170f79429158c.png",
+              "src": "~/assets/bannerStatic/static_04/1c4b40f96bac2479f7a67541171170f79429158c.png",
               "id": 0
           }
       ],
@@ -150,7 +150,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/a9a0eb9ce2e611290e86961a61c3b0942de3515b.png",
+              "src": "~/assets/bannerStatic/static_04/a9a0eb9ce2e611290e86961a61c3b0942de3515b.png",
               "id": 0
           }
       ],
@@ -178,7 +178,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/2422523efbc7d3486555c66a9a8f20c3e3f6fdb5.png",
+              "src": "~/assets/bannerStatic/static_04/2422523efbc7d3486555c66a9a8f20c3e3f6fdb5.png",
               "id": 0
           }
       ],
@@ -204,7 +204,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/16dc88de1e536a9b11dbe4acec40d44acbf30e4d.png",
+              "src": "~/assets/bannerStatic/static_04/16dc88de1e536a9b11dbe4acec40d44acbf30e4d.png",
               "id": 0
           }
       ],
@@ -233,7 +233,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/85d3ee641e1af27233ce0571bfdc650bb6bac668.png",
+              "src": "~/assets/bannerStatic/static_04/85d3ee641e1af27233ce0571bfdc650bb6bac668.png",
               "id": 0
           }
       ],
@@ -259,7 +259,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/d86630ee943035f95c0e318bc386764196ab08b6.png",
+              "src": "~/assets/bannerStatic/static_04/d86630ee943035f95c0e318bc386764196ab08b6.png",
               "id": 0
           }
       ],
@@ -285,7 +285,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/e3a1d1ea8c4360518fa9bbef665795056ca1d50f.png",
+              "src": "~/assets/bannerStatic/static_04/e3a1d1ea8c4360518fa9bbef665795056ca1d50f.png",
               "id": 0
           }
       ],
@@ -313,7 +313,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/459b9e641fc8be0466084ec0fff89e28ca2229ea.png",
+              "src": "~/assets/bannerStatic/static_04/459b9e641fc8be0466084ec0fff89e28ca2229ea.png",
               "id": 0
           }
       ],
@@ -341,7 +341,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/392e080a19e6618774a15c235ab0873180e4010d.png",
+              "src": "~/assets/bannerStatic/static_04/392e080a19e6618774a15c235ab0873180e4010d.png",
               "id": 0
           }
       ],
@@ -369,7 +369,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/d9ff91200e453584beb49626c2ddbd78e4dd60ed.png",
+              "src": "~/assets/bannerStatic/static_04/d9ff91200e453584beb49626c2ddbd78e4dd60ed.png",
               "id": 0
           }
       ],
@@ -397,7 +397,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/d29049442060427102881e002285ae50686052e2.png",
+              "src": "~/assets/bannerStatic/static_04/d29049442060427102881e002285ae50686052e2.png",
               "id": 0
           }
       ],
@@ -423,7 +423,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/a2f14a60908565b6a4b85caee82bd0457127f9f3.png",
+              "src": "~/assets/bannerStatic/static_04/a2f14a60908565b6a4b85caee82bd0457127f9f3.png",
               "id": 0
           }
       ],
@@ -451,7 +451,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/f3bbed911be68b540c12fb7cbe602ae71ec9a8c7.png",
+              "src": "~/assets/bannerStatic/static_04/f3bbed911be68b540c12fb7cbe602ae71ec9a8c7.png",
               "id": 0
           }
       ],
@@ -479,7 +479,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/f3bbed911be68b540c12fb7cbe602ae71ec9a8c7.png",
+              "src": "~/assets/bannerStatic/static_04/f3bbed911be68b540c12fb7cbe602ae71ec9a8c7.png",
               "id": 0
           }
       ],
@@ -507,7 +507,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_04/a2f14a60908565b6a4b85caee82bd0457127f9f3.png",
+              "src": "~/assets/bannerStatic/static_04/a2f14a60908565b6a4b85caee82bd0457127f9f3.png",
               "id": 0
           }
       ],
@@ -531,3 +531,5 @@ const layers = [
       "name": "01右灌木丛"
   }
 ]
+
+export default layers;

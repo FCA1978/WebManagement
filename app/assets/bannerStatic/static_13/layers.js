@@ -2,7 +2,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/90240f707cb4a015bbf8bbd13e018b3f664087ce.png",
+        src: "~/assets/bannerStatic/static_13/90240f707cb4a015bbf8bbd13e018b3f664087ce.png",
         id: 0,
       },
     ],
@@ -24,7 +24,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/cd4194a7be89655450147d2384a162b966cf2ec2.png",
+        src: "~/assets/bannerStatic/static_13/cd4194a7be89655450147d2384a162b966cf2ec2.png",
         id: 0,
       },
     ],
@@ -45,7 +45,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/ab2379f7c80b225020ee42289db11b84b57c2766.png",
+        src: "~/assets/bannerStatic/static_13/ab2379f7c80b225020ee42289db11b84b57c2766.png",
         id: 0,
       },
     ],
@@ -67,7 +67,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/938b58321d184fde31c783f5b321621ffb0c190e.png",
+        src: "~/assets/bannerStatic/static_13/938b58321d184fde31c783f5b321621ffb0c190e.png",
         id: 0,
       },
     ],
@@ -88,7 +88,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/af840eae2cc555b0757d406e252f7a7dd6542eed.png",
+        src: "~/assets/bannerStatic/static_13/af840eae2cc555b0757d406e252f7a7dd6542eed.png",
         id: 0,
       },
     ],
@@ -109,7 +109,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/1271b110ca83ef84bf8d2c664537c8644a273216.png",
+        src: "~/assets/bannerStatic/static_13/1271b110ca83ef84bf8d2c664537c8644a273216.png",
         id: 0,
       },
     ],
@@ -130,7 +130,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/c8b49dc1aa86b2573ce2736de6692acfe0182481.png",
+        src: "~/assets/bannerStatic/static_13/c8b49dc1aa86b2573ce2736de6692acfe0182481.png",
         id: 0,
       },
     ],
@@ -151,7 +151,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/0881f755a4857a3b9bc12c3bbe41c00382ac6fc6.png",
+        src: "~/assets/bannerStatic/static_13/0881f755a4857a3b9bc12c3bbe41c00382ac6fc6.png",
         id: 0,
       },
     ],
@@ -172,7 +172,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/065fff3eb5ce38fd2d3a658ff825d5aa3a744e73.png",
+        src: "~/assets/bannerStatic/static_13/065fff3eb5ce38fd2d3a658ff825d5aa3a744e73.png",
         id: 0,
       },
     ],
@@ -193,7 +193,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/7e61b8ea5efd98ade40b7ee386dd1bbc2b5898f5.png",
+        src: "~/assets/bannerStatic/static_13/7e61b8ea5efd98ade40b7ee386dd1bbc2b5898f5.png",
         id: 0,
       },
     ],
@@ -215,7 +215,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/27724404973bbe4573bfabab6fed6767d6b06815.png",
+        src: "~/assets/bannerStatic/static_13/27724404973bbe4573bfabab6fed6767d6b06815.png",
         id: 0,
       },
     ],
@@ -237,7 +237,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/29d11ebfdd1b9d0840cc528c95ede27fe3d0a8e2.png",
+        src: "~/assets/bannerStatic/static_13/29d11ebfdd1b9d0840cc528c95ede27fe3d0a8e2.png",
         id: 0,
       },
     ],
@@ -258,7 +258,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/3af7aa17868b8e5bc26950ac4a399bec62b83e50.png",
+        src: "~/assets/bannerStatic/static_13/3af7aa17868b8e5bc26950ac4a399bec62b83e50.png",
         id: 0,
       },
     ],
@@ -277,7 +277,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/27ec840f903725d7ad7ad8356d37ead40ece4b31.png",
+        src: "~/assets/bannerStatic/static_13/27ec840f903725d7ad7ad8356d37ead40ece4b31.png",
         id: 0,
       },
     ],
@@ -297,7 +297,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/230bdd9372f4d1362d0d9cd75d3b233b2db29d43.png",
+        src: "~/assets/bannerStatic/static_13/230bdd9372f4d1362d0d9cd75d3b233b2db29d43.png",
         id: 0,
       },
     ],
@@ -318,7 +318,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/56f088b30dadc2c99fed255fcf4cc34c4f37f313.png",
+        src: "~/assets/bannerStatic/static_13/56f088b30dadc2c99fed255fcf4cc34c4f37f313.png",
         id: 0,
       },
     ],
@@ -339,7 +339,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/c5a4a63c098b81d89c73d359de35fcea9bb1c7a3.png",
+        src: "~/assets/bannerStatic/static_13/c5a4a63c098b81d89c73d359de35fcea9bb1c7a3.png",
         id: 0,
       },
     ],
@@ -360,7 +360,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/d195a834c55a24c1f599e7c15e3b59e5795c5c0f.webm",
+        src: "~/assets/bannerStatic/static_13/d195a834c55a24c1f599e7c15e3b59e5795c5c0f.webm",
         id: 0,
       },
     ],
@@ -382,7 +382,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/59b1c59d919469fc0a4632acc5a6eecd9260d099.png",
+        src: "~/assets/bannerStatic/static_13/59b1c59d919469fc0a4632acc5a6eecd9260d099.png",
         id: 0,
       },
     ],
@@ -403,7 +403,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/7b7dd8a92bf8036be6502898e9804c65ee0f6284.png",
+        src: "~/assets/bannerStatic/static_13/7b7dd8a92bf8036be6502898e9804c65ee0f6284.png",
         id: 0,
       },
     ],
@@ -425,7 +425,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/aabd831214cdae044414980e3c06787c0f3073ff.png",
+        src: "~/assets/bannerStatic/static_13/aabd831214cdae044414980e3c06787c0f3073ff.png",
         id: 0,
       },
     ],
@@ -446,7 +446,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/b5b5336124932336e39a99d64014fc0154d53912.webm",
+        src: "~/assets/bannerStatic/static_13/b5b5336124932336e39a99d64014fc0154d53912.webm",
         id: 0,
       },
     ],
@@ -468,7 +468,7 @@ const layers = [
   {
     resources: [
       {
-        src: "./static_13/928547de5ced33ce2b28b7924e1a470a110eed26.png",
+        src: "~/assets/bannerStatic/static_13/928547de5ced33ce2b28b7924e1a470a110eed26.png",
         id: 0,
       },
     ],

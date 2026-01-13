@@ -3,7 +3,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/0876da4f3ec73ff180fc87b46b6d1bcf4d52030a.png",
+              "src": "~/assets/bannerStatic/static_03/0876da4f3ec73ff180fc87b46b6d1bcf4d52030a.png",
               "id": 0
           }
       ],
@@ -22,7 +22,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/4adc24834b64143296d77bc81ccd952a59301b08.png",
+              "src": "~/assets/bannerStatic/static_03/4adc24834b64143296d77bc81ccd952a59301b08.png",
               "id": 0
           }
       ],
@@ -46,7 +46,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/e33992d2d75647af38c50792c199fb9db006786c.png",
+              "src": "~/assets/bannerStatic/static_03/e33992d2d75647af38c50792c199fb9db006786c.png",
               "id": 0
           }
       ],
@@ -74,7 +74,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/57102cf6e2e2845f2773581928c1d0f0c1985a3e.png",
+              "src": "~/assets/bannerStatic/static_03/57102cf6e2e2845f2773581928c1d0f0c1985a3e.png",
               "id": 0
           }
       ],
@@ -102,7 +102,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/0f79aa287163a3271c6cb22a73a6dc0fc210ab7c.png",
+              "src": "~/assets/bannerStatic/static_03/0f79aa287163a3271c6cb22a73a6dc0fc210ab7c.png",
               "id": 0
           }
       ],
@@ -130,7 +130,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/639de634f90688e86b7bd32924cfb029a316cde4.png",
+              "src": "~/assets/bannerStatic/static_03/639de634f90688e86b7bd32924cfb029a316cde4.png",
               "id": 0
           }
       ],
@@ -158,7 +158,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/852c3bd9d9608ceccb7265de8cea7cf3a4b039eb.png",
+              "src": "~/assets/bannerStatic/static_03/852c3bd9d9608ceccb7265de8cea7cf3a4b039eb.png",
               "id": 0
           }
       ],
@@ -186,7 +186,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/9556f65510f73c44aa6756ee9b8cf7fc2562b906.png",
+              "src": "~/assets/bannerStatic/static_03/9556f65510f73c44aa6756ee9b8cf7fc2562b906.png",
               "id": 0
           }
       ],
@@ -210,7 +210,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/530a4624fe408881101885c6f24c72e8c2a14fb6.png",
+              "src": "~/assets/bannerStatic/static_03/530a4624fe408881101885c6f24c72e8c2a14fb6.png",
               "id": 0
           }
       ],
@@ -238,7 +238,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/bf896616dec163402ec79a81f936af67932eca2f.png",
+              "src": "~/assets/bannerStatic/static_03/bf896616dec163402ec79a81f936af67932eca2f.png",
               "id": 0
           }
       ],
@@ -266,7 +266,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/32aa867cd3e8fba371a2be90d7d844a68c67f7a5.png",
+              "src": "~/assets/bannerStatic/static_03/32aa867cd3e8fba371a2be90d7d844a68c67f7a5.png",
               "id": 0
           }
       ],
@@ -294,7 +294,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/c6263485a0218c887848c47a0fe4f515006e1567.png",
+              "src": "~/assets/bannerStatic/static_03/c6263485a0218c887848c47a0fe4f515006e1567.png",
               "id": 0
           }
       ],
@@ -322,7 +322,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/cd4fda9478b06a8d81cd04f69d7a2ad475d1db40.png",
+              "src": "~/assets/bannerStatic/static_03/cd4fda9478b06a8d81cd04f69d7a2ad475d1db40.png",
               "id": 0
           }
       ],
@@ -350,7 +350,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/0479542df6a7c5deddf60fbbf63b6e1f1f770c08.png",
+              "src": "~/assets/bannerStatic/static_03/0479542df6a7c5deddf60fbbf63b6e1f1f770c08.png",
               "id": 0
           }
       ],
@@ -378,7 +378,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/b6f4359409b4550fb38594d8c227902db29c720a.png",
+              "src": "~/assets/bannerStatic/static_03/b6f4359409b4550fb38594d8c227902db29c720a.png",
               "id": 0
           }
       ],
@@ -406,7 +406,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/8a6899088fc9dcd37a0039884fb77f69dc3b1c30.png",
+              "src": "~/assets/bannerStatic/static_03/8a6899088fc9dcd37a0039884fb77f69dc3b1c30.png",
               "id": 0
           }
       ],
@@ -434,7 +434,7 @@ const layers = [
   {
       "resources": [
           {
-              "src": "./static_03/96704a6197153e1717a910e6c227937f34743cee.png",
+              "src": "~/assets/bannerStatic/static_03/96704a6197153e1717a910e6c227937f34743cee.png",
               "id": 0
           }
       ],
@@ -460,3 +460,5 @@ const layers = [
       "name": "17_前景栗子"
   }
 ] 
+
+export default layers;
