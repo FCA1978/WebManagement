@@ -1,25 +1,27 @@
 <template>
-  <div class="page-wrapper">
+  <!-- <div class="page-wrapper">
     <IntroSection />
     <BannerSection />
+  </div> -->
+
+  <div class="w-full flex flex-col gap-4">
+    
   </div>
 </template>
 
 <script setup lang="ts">
-import IntroSection from './components/IntroSection.vue'
-
-import BannerSection from './components/BannerSection.vue'
+// import IntroSection from './components/IntroSection.vue'
+// import BannerSection from './components/BannerSection.vue'
 </script>
 
 
 <style scoped lang="scss">
-.page-wrapper {
-  overflow-x: hidden;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
+// .page-wrapper {
+//   overflow-x: hidden;
+//   scrollbar-width: none;
+//   -ms-overflow-style: none;
+// }
 
-.page-wrapper::-webkit-scrollbar {
-  display: none;
-}
-</style>
+// .page-wrapper::-webkit-scrollbar {
+//   display: none;
+// }</style>

@@ -1,18 +1,31 @@
 <script setup>
+import { ConfigProvider } from 'reka-ui'
+import { Toaster } from '@/components/ui/sonner'
+import 'vue-sonner/style.css'
+
+const colorMode = useColorMode()
+const color = computed(() => colorMode.value === 'dark' ? '#09090b' : '#ffffff')
+const { theme } = useAppSettings()
+
 useHead({
   meta: [
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    { charset: 'utf-8' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { key: 'theme-color', name: 'theme-color', content: color },
   ],
   link: [
     { rel: 'icon', href: '/favicon.ico' }
   ],
   htmlAttrs: {
     lang: 'en'
-  }
+  },
+  bodyAttrs: {
+    class: computed(() => `color-${theme.value?.color || 'default'} theme-${theme.value?.type || 'default'}`),
+  },
 })
 
-const title = 'Nuxt Starter Template'
-const description = 'A production-ready starter template powered by Nuxt UI. Build beautiful, accessible, and performant applications in minutes, not hours.'
+const title = 'WebManagement'
+const description = 'Firefly Web Management'
 
 useSeoMeta({
   title,
@@ -26,27 +39,18 @@ useSeoMeta({
 </script>
 
 <template>
-  <UApp>
-    <UHeader>
-      <template #left>
-        <NuxtLink to="/">
-          <AppLogo class="w-auto h-12 shrink-0" />
-        </NuxtLink>
 
-      </template>
+  <Body class="overscroll-none antialiased bg-background text-foreground">
+    <ConfigProvider :dir="dir">
+      <div id="app" vaul-drawer-wrapper class="relative">
+        <NuxtLayout>
+          <NuxtPage />
+        </NuxtLayout>
 
-      <template #right>
-        <UColorModeButton />
-      </template>
-    </UHeader>
+        <AppSettings />
+      </div>
 
-    <UMain>
-      <NuxtPage />
-    </UMain>
-
-    <USeparator icon="i-simple-icons-nuxtdotjs" />
-
-    <UFooter>
-    </UFooter>
-  </UApp>
+      <Toaster :theme="colorMode.preference || 'system'" />
+    </ConfigProvider>
+  </Body>
 </template>
