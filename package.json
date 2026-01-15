@@ -2,6 +2,19 @@
   "name": "nuxt4-best",
   "private": true,
   "type": "module",
+  "main": "./nuxt.config.ts",
+  "files": [
+    "app.vue",
+    "components",
+    "components.json",
+    "composables",
+    "constants",
+    "layouts",
+    "lib",
+    "nuxt.config.ts",
+    "pages",
+    "types"
+  ],
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -13,14 +26,23 @@
   "dependencies": {
     "@iconify-json/lucide": "^1.2.82",
     "@iconify-json/simple-icons": "^1.2.63",
+    "@internationalized/date": "^3.10.0",
+    "@number-flow/vue": "^0.4.8",
+    "@tanstack/vue-table": "^8.21.3",
     "@nuxt/ui": "^4.3.0",
     "atropos": "^2.0.2",
     "nuxt": "^4.2.2",
     "scss": "^0.2.4",
     "shadcn-nuxt": "2.4.3",
-    "reka-ui": "^2.5.1"
+    "@unovis/ts": "^1.6.1",
+    "@unovis/vue": "^1.6.1",
+    "reka-ui": "^2.5.1",
+    "vuedraggable": "^4.1.0"
   },
   "devDependencies": {
+    "@vueuse/core": "^12.8.2",
+    "@vueuse/math": "^12.8.2",
+    "@vueuse/nuxt": "^12.8.2",
     "@nuxt/eslint": "^1.12.1",
     "eslint": "^9.39.2",
     "sass-embedded": "^1.97.2",
@@ -30,7 +52,10 @@
     "vue": "^3.5.22",
     "vue-router": "^4.5.1",
     "vue-sonner": "^2.0.9",
-    "vaul-vue": "^0.4.1"
+    "vaul-vue": "^0.4.1",
+    "lucide-vue-next": "^0.482.0",
+    "zod": "^3.25.76",
+    "date-fns": "^4.1.0"
   },
   "packageManager": "pnpm@10.26.1"
 }

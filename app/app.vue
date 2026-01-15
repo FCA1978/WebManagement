@@ -1,6 +1,7 @@
 <script setup>
 import { ConfigProvider } from 'reka-ui'
 import { Toaster } from '@/components/ui/sonner'
+import AppSettings from '@/components/AppSettings.vue'
 import 'vue-sonner/style.css'
 
 const colorMode = useColorMode()
@@ -36,6 +37,16 @@ useSeoMeta({
   twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
   twitterCard: 'summary_large_image'
 })
+
+const router = useRouter()
+
+defineShortcuts({
+  'G-H': () => router.push('/'),
+  'G-E': () => router.push('/email'),
+})
+
+const textDirection = useTextDirection({ initialValue: 'ltr' })
+const dir = computed(() => textDirection.value === 'rtl' ? 'rtl' : 'ltr')
 </script>
 
 <template>

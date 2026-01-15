@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', '@nuxt/ui', 'shadcn-nuxt'],
+  modules: ['@nuxt/eslint', 'shadcn-nuxt', '@vueuse/nuxt', '@nuxtjs/color-mode', '@nuxt/ui', '@vueuse/nuxt',],
 
   devtools: {
     enabled: true
@@ -22,6 +22,13 @@ export default defineNuxtConfig({
       }
     }
   },
+
+  components: [
+    {
+      path: '~/components',
+      extensions: ['.vue'],
+    },
+  ],
 
   ui: {
     fonts: false
