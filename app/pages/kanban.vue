@@ -21,10 +21,10 @@ function createColumn() {
       <div class="flex flex-wrap items-center justify-between gap-2">
         <div>
           <h2 class="text-2xl font-bold tracking-tight">
-            Kanban Board
+            工作面板
           </h2>
           <p class="text-muted-foreground">
-            Here&apos;s a list of your tasks for this month!
+            记录您的本月工作进度及待办
           </p>
         </div>
         <Button size="sm" @click="showNewColumn = true">

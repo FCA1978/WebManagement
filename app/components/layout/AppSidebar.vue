@@ -14,31 +14,26 @@ const teams: {
   logo: string
   plan: string
 }[] = [
-  {
-    name: 'Acme Inc',
-    logo: 'i-lucide-gallery-vertical-end',
-    plan: 'Enterprise',
-  },
-  {
-    name: 'Acme Corp.',
-    logo: 'i-lucide-audio-waveform',
-    plan: 'Startup',
-  },
-  {
-    name: 'Evil Corp.',
-    logo: 'i-lucide-command',
-    plan: 'Free',
-  },
-]
+    {
+      name: 'RISE',
+      logo: 'i-lucide-gallery-vertical-end',
+      plan: 'Group',
+    },
+    {
+      name: '萤火寨',
+      logo: 'i-lucide-audio-waveform',
+      plan: 'Group',
+    },
+  ]
 
 const user: {
   name: string
   email: string
   avatar: string
 } = {
-  name: 'Dian Pratama',
-  email: 'dianpratama2@gmail.com',
-  avatar: '/avatars/avatartion.png',
+  name: 'Caesar Fan',
+  email: '292409835@qq.com',
+  avatar: '/avatars/avatartion.webp',
 }
 
 const { sidebar } = useAppSettings()
@@ -58,7 +53,7 @@ const { sidebar } = useAppSettings()
         <component :is="resolveNavItemComponent(item)" v-for="(item, index) in nav.items" :key="index" :item="item" />
       </SidebarGroup>
       <SidebarGroup class="mt-auto">
-        <component :is="resolveNavItemComponent(item)" v-for="(item, index) in navMenuBottom" :key="index" :item="item" size="sm" />
+        <img src="@/assets/img/yazhaiTag.png">
       </SidebarGroup>
     </SidebarContent>
     <SidebarFooter>
@@ -68,6 +63,4 @@ const { sidebar } = useAppSettings()
   </Sidebar>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

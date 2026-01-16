@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { cn } from '@/lib/utils'
 import type { DateValue } from '@internationalized/date'
 import type { UseTimeAgoMessages, UseTimeAgoOptions, UseTimeAgoUnitNamesDefault } from '@vueuse/core'
 import type { Column, NewTask, Task } from '~/types/kanban'
@@ -179,25 +180,16 @@ const OPTIONS: UseTimeAgoOptions<false, UseTimeAgoUnitNamesDefault> = {
 <template>
   <div class="flex gap-4 overflow-x-auto overflow-y-hidden pb-4">
     <!-- Columns Draggable wrapper -->
-    <Draggable
-      v-model="board.columns"
-      class="flex gap-4 min-w-max"
-      item-key="id"
-      :animation="180"
-      handle=".col-handle"
-      ghost-class="opacity-50"
-      @end="onColumnDrop"
-    >
+    <Draggable v-model="board.columns" class="flex gap-4 min-w-max" item-key="id" :animation="180" handle=".col-handle"
+      ghost-class="opacity-50" @end="onColumnDrop">
       <template #item="{ element: col }: { element: Column }">
         <Card class="w-[272px] shrink-0 py-2 gap-4 self-start">
           <CardHeader class="flex flex-row items-center justify-between gap-2 px-2">
             <CardTitle class="font-semibold text-base flex items-center gap-2">
               <Icon name="lucide:grip-vertical" class="col-handle cursor-grab opacity-60" />
-              <span
-                :id="`col-title-${col.id}`"
-                contenteditable="true" class="hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-1 rounded"
-                @blur="onUpdateColumn($event, col.id)" @keydown.enter.prevent
-              >{{ col.title }}</span>
+              <span :id="`col-title-${col.id}`" contenteditable="true"
+                class="hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 px-1 rounded"
+                @blur="onUpdateColumn($event, col.id)" @keydown.enter.prevent>{{ col.title }}</span>
               <Badge variant="secondary" class="h-5 min-w-5 px-1 font-mono tabular-nums">
                 {{ col.tasks.length }}
               </Badge>
@@ -228,15 +220,9 @@ const OPTIONS: UseTimeAgoOptions<false, UseTimeAgoUnitNamesDefault> = {
           </CardHeader>
           <CardContent class="px-2 overflow-y-auto overflow-x-hidden flex-1">
             <!-- Tasks within the column -->
-            <Draggable
-              v-model="col.tasks"
-              :group="{ name: 'kanban-tasks', pull: true, put: true }"
-              item-key="id"
-              :animation="180"
-              class="flex flex-col gap-3 min-h-[24px] p-0.5"
-              ghost-class="opacity-50"
-              @end="onTaskDrop"
-            >
+            <Draggable v-model="col.tasks" :group="{ name: 'kanban-tasks', pull: true, put: true }" item-key="id"
+              :animation="180" class="flex flex-col gap-3 min-h-[24px] p-0.5" ghost-class="opacity-50"
+              @end="onTaskDrop">
               <template #item="{ element: t }: { element: Task }">
                 <div class="rounded-xl border bg-card px-3 py-2 shadow-sm hover:bg-accent/50 cursor-pointer">
                   <div class="flex items-start justify-between gap-2">
@@ -245,7 +231,8 @@ const OPTIONS: UseTimeAgoOptions<false, UseTimeAgoUnitNamesDefault> = {
                     </div>
                     <DropdownMenu>
                       <DropdownMenuTrigger as-child>
-                        <Button size="icon-sm" variant="ghost" class="size-7 text-muted-foreground" title="More actions">
+                        <Button size="icon-sm" variant="ghost" class="size-7 text-muted-foreground"
+                          title="More actions">
                           <Icon name="lucide:ellipsis-vertical" />
                         </Button>
                       </DropdownMenuTrigger>
@@ -264,7 +251,8 @@ const OPTIONS: UseTimeAgoOptions<false, UseTimeAgoUnitNamesDefault> = {
                           Copy link
                         </DropdownMenuItem>
                         <DropdownMenuSeparator />
-                        <DropdownMenuItem variant="destructive" class="text-destructive" @click="removeTask(col.id, t.id)">
+                        <DropdownMenuItem variant="destructive" class="text-destructive"
+                          @click="removeTask(col.id, t.id)">
                           <Icon name="lucide:trash-2" class="size-4" />
                           Delete
                         </DropdownMenuItem>
@@ -300,14 +288,15 @@ const OPTIONS: UseTimeAgoOptions<false, UseTimeAgoUnitNamesDefault> = {
                     <div class="flex items-center gap-2">
                       <Tooltip>
                         <TooltipTrigger as-child>
-                          <Icon v-if="t.priority" :name="iconPriority(t.priority)" class="size-4" :class="colorPriority(t.priority)" />
+                          <Icon v-if="t.priority" :name="iconPriority(t.priority)" class="size-4"
+                            :class="colorPriority(t.priority)" />
                         </TooltipTrigger>
                         <TooltipContent class="capitalize">
                           {{ t.priority }}
                         </TooltipContent>
                       </Tooltip>
                       <Avatar class="size-6">
-                        <AvatarImage src="/avatars/avatartion.png" alt="avatar" />
+                        <AvatarImage src="/avatars/avatartion.webp" alt="avatar" />
                         <AvatarFallback class="text-[10px]">
                           DP
                         </AvatarFallback>
@@ -365,13 +354,10 @@ const OPTIONS: UseTimeAgoOptions<false, UseTimeAgoUnitNamesDefault> = {
           <div class="flex items-center gap-1">
             <Popover>
               <PopoverTrigger as-child>
-                <Button
-                  variant="outline"
-                  :class="cn(
-                    'flex-1 justify-start text-left font-normal px-3',
-                    !dueDate && 'text-muted-foreground',
-                  )"
-                >
+                <Button variant="outline" :class="cn(
+                  'flex-1 justify-start text-left font-normal px-3',
+                  !dueDate && 'text-muted-foreground',
+                )">
                   <Icon name="lucide:calendar" class="mr-2" />
                   {{ dueDate ? df.format(dueDate.toDate(getLocalTimeZone())) : "Pick a date" }}
                 </Button>
@@ -380,14 +366,8 @@ const OPTIONS: UseTimeAgoOptions<false, UseTimeAgoUnitNamesDefault> = {
                 <Calendar v-model="dueDate" initial-focus />
               </PopoverContent>
             </Popover>
-            <Input
-              id="time-picker"
-              v-model="dueTime"
-              type="time"
-              step="60"
-              default-value="00:00"
-              class="flex-1 bg-background appearance-none [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none"
-            />
+            <Input id="time-picker" v-model="dueTime" type="time" step="60" default-value="00:00"
+              class="flex-1 bg-background appearance-none [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-calendar-picker-indicator]:appearance-none" />
           </div>
         </div>
       </div>

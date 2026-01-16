@@ -24,7 +24,7 @@ const activeTeam = ref(props.teams[0])
             class="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
           >
             <div class="aspect-square size-8 flex items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
-              <Icon :name="activeTeam!.logo" class="size-4" />
+               <img src="@/assets/img/logo.jpg" class="size-6">
             </div>
             <div class="grid flex-1 text-left text-sm leading-tight">
               <span class="truncate font-semibold">
@@ -50,7 +50,7 @@ const activeTeam = ref(props.teams[0])
             @click="activeTeam = team"
           >
             <div class="size-6 flex items-center justify-center border rounded-sm">
-              <Icon :name="team.logo" class="size-4 shrink-0" />
+               <img src="@/assets/img/logo.jpg" class="size-6 shrink-0">
             </div>
             {{ team.name }}
             <DropdownMenuShortcut>⌘{{ index + 1 }}</DropdownMenuShortcut>

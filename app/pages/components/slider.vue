@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { cn } from '@/lib/utils'
 const modelValue = ref([50])
 </script>
 
@@ -15,21 +16,13 @@ const modelValue = ref([50])
       </div>
       <div class="flex gap-2">
         <Badge variant="secondary" class="rounded-full" as-child>
-          <NuxtLink
-            to="https://www.shadcn-vue.com/docs/components/slider"
-            external
-            target="_blank"
-          >
+          <NuxtLink to="https://www.shadcn-vue.com/docs/components/slider" external target="_blank">
             Component Source
             <Icon name="tabler:arrow-up-right" />
           </NuxtLink>
         </Badge>
         <Badge variant="secondary" class="rounded-full" as-child>
-          <NuxtLink
-            to="https://www.reka-ui.com/docs/components/slider"
-            external
-            target="_blank"
-          >
+          <NuxtLink to="https://www.reka-ui.com/docs/components/slider" external target="_blank">
             API Reference
             <Icon name="tabler:arrow-up-right" />
           </NuxtLink>
@@ -43,12 +36,7 @@ const modelValue = ref([50])
         </CardHeader>
         <CardContent>
           <div class="min-h-100px w-full flex items-center justify-center gap-4 md:min-h-200px">
-            <Slider
-              v-model="modelValue"
-              :max="100"
-              :step="1"
-              :class="cn('w-3/5', $attrs.class ?? '')"
-            />
+            <Slider v-model="modelValue" :max="100" :step="1" :class="cn('w-3/5', $attrs.class ?? '')" />
           </div>
         </CardContent>
       </Card>
@@ -56,6 +44,4 @@ const modelValue = ref([50])
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
